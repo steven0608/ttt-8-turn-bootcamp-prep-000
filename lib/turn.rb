@@ -31,7 +31,7 @@ def turn(board)
   puts "please enter 1-9:"
   index=gets.strip.to_i-1
   if index<9
-    move(board,index,token="X")
+    move(board,index,"X")
   else
     puts "please enter again: (1-9)"
 end
