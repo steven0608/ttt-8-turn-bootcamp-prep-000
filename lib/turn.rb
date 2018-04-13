@@ -13,10 +13,10 @@ index=input -1
 end
 
 def valid_move?(board,index)
-  !position_taken?(board,index) && index<9
   def position_taken?(board,index)
     board[index]=="X" || board[index]=="O"
   end
+  !position_taken?(board,index) && index<9
 end
 
 
