@@ -12,7 +12,7 @@ input=user_input.to_i
 index=input -1
 end
 
-def valid_move?(board,index)
+def valid_move?(board, index)
 !(board[index]=="X" || board[index]=="O") && index<board.length
 end
 
