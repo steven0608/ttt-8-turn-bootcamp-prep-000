@@ -15,9 +15,17 @@ index=2
 
 def valid_move?(board,index)
   def position_taken?(board,index)
-    board[index]="X" || board[index]="O"
+    if board[index]="X" || board[index]="O"
+      return true
+    else
+      return false
   end
-!position_taken?(board,index) && index<9
+end
+if !position_taken?(board,index) && index<9
+  return true
+else
+  return false
+end
 end
 
 
