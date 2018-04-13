@@ -18,18 +18,11 @@ end
 
 
 def move(board,index,token="X")
-if valid_move?(board,index)
     board[index]=token
     puts display_board(board)
-end
 end
 
 def turn(board)
   puts "please enter 1-9:"
-  index=gets.strip.to_i-1
-  if index<9
-    move(board,index,"X")
-  else
-    puts "please enter again: (1-9)"
-end
+  
 end
