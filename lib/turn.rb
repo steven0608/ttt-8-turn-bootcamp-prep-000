@@ -6,7 +6,7 @@ puts " #{board[3]} | #{board[4]} | #{board[5]} "
 puts "-----------"
 puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
-display_board(board)
+
 #def input_to_index(input)
 #index=input.to_i - 1
 #end
