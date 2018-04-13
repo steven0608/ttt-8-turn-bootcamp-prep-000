@@ -30,8 +30,7 @@ if valid_move?(board,index)
 else
   puts "Please enter again (1-9)"
   input= gets.strip
-end
 
 until valid_move?(board,index)
 end
-
+end
