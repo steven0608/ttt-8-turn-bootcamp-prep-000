@@ -29,7 +29,7 @@ if valid_move?(board,index)
 
 else
   puts "Please enter again (1-9)"
-  
+
 end
 end
 until valid_move?(board,index)
