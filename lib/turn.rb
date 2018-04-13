@@ -10,7 +10,7 @@ display_board(board)
 #def input_to_index(input)
 #index=input.to_i - 1
 #end
-
+index=2
 
 def valid_move?(board,index)
   def position_taken?(board,index)
