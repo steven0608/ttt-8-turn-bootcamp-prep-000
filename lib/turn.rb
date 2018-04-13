@@ -34,5 +34,5 @@ def turn(board)
     move(board,index,token="X")
   else
     puts "please enter again: (1-9)"
-    
+end
 end
