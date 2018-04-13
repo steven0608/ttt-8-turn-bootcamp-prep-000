@@ -20,11 +20,18 @@ def valid_move?(board,index)
 !position_taken?(board,index) && index<9
 end
 if valid_move?(board,index)
-    
-    
+
+
 def move(board,index,token="X")
 if valid_move?(board,index)
     board[index]=token
     puts display_board(board)
-  end
+
+else 
+  puts "Please enter again (1-9)"
+  input= gets.strip
+end
+
+until valid_move?(board,index)
+end
 end
