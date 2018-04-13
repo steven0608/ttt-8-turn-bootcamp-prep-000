@@ -13,7 +13,7 @@ index=input -1
 end
 
 def valid_move?(board, index)
-!(board[index]=="X" || board[index]=="O") && index<board.length && board[index]==" "
+!(board[index]=="X" || board[index]=="O") && index<board.length && index>=0
 end
 
 
