@@ -27,7 +27,7 @@ if valid_move?(board,index)
     board[index]=token
     puts display_board(board)
 
-else 
+else
   puts "Please enter again (1-9)"
   input= gets.strip
 end
