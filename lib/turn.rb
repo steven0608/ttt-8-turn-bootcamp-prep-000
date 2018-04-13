@@ -7,3 +7,10 @@ puts "-----------"
 puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 display_board(board)
+
+def valid_move?(board,index)
+  def position_taken?(board,index)
+    board[index]="X" || board[index]="O"
+  end
+!position_taken?(board,index) && index<9
+end
